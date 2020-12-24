@@ -1,0 +1,12 @@
+{
+	"name": "setup-file-generator",
+	"version": "1.0.0",
+	"description": "Compile electron app into an .exe setup",
+	"author": "Taimoor Tariq",
+	"license": "MIT",
+	"main": "compile.js",
+	"scripts": {},
+	"dependencies": {
+		"innosetup-compiler-cn": "^1.0.6"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "electron-template",
+	"version": "1.0.0",
+	"description": "Template for electon apps",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "echo NO TEST SPECIFIED",
+		"build": "electron-packager . %npm_package_name% --icon 'src/assets/icon.ico' --asar --overwrite --platform win32 --arch x64 --out ../dist/ && node ../dist/compile.js"
+	},
+	"author": "Taimoor Tariq",
+	"license": "MIT",
+	"dependencies": {
+		"electron-overlay-window": "^1.0.4",
+		"express": "^4.17.1",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6",
+		"socket.io": "^2.3.0",
+		"socket.io-client": "^2.3.1"
+	},
+	"devDependencies": {
+		"electron": "^10.1.5",
+		"electron-packager": "^15.1.0"
+	}
+}
