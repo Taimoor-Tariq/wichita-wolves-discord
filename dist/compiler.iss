@@ -1,11 +1,11 @@
-#define MyAppName ""
-#define MyAppVersion ""
+#define MyAppName "Wichita Wolves Discord"
+#define MyAppVersion "1.0.0"
 #define MyAppPublisher "Taimoor Tariq"
 #define MyAppURL ""
-#define MyAppBaseName ""
-#define MyAppDir ".\dist"
-#define MyAppDirSrc "-win32-x64"
-#define MyIcon "..\app\src\assets\icon.ico"
+#define MyAppBaseName "wolves-discord"
+#define MyAppDir "C:\Users\taimo\Desktop\Taimoor\GitHub\wichita-wolves-discord\dist"
+#define MyAppDirSrc "{#MyAppBaseName}-win32-x64"
+#define MyIcon "C:\Users\taimo\Desktop\Taimoor\GitHub\wichita-wolves-discord\app\src\assets\icon.ico"
 
 [Setup]
 AppId={{UUID}
